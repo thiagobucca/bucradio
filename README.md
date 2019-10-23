@@ -1,2 +1,4 @@
 # bucradio
-Minimalist Brasilian Radio app built with Swift.
+Minimalist Brazilian Radio app built with Swift.
+
+Based on Swift Radio Pro.
