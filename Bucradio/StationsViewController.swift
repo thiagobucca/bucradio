@@ -93,7 +93,7 @@ class StationsViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        title = "BucRadios"
+        title = "BucRadio"
     }
 
     //*****************************************************************
@@ -116,7 +116,7 @@ class StationsViewController: UIViewController {
     func createNowPlayingBarButton() {
         guard navigationItem.rightBarButtonItem == nil else { return }
         let btn = UIBarButtonItem(title: "", style: .plain, target: self, action:#selector(nowPlayingBarButtonPressed))
-        btn.image = UIImage(named: "btn-nowPlaying")
+        btn.image = UIImage(named: "icon-info")
         navigationItem.rightBarButtonItem = btn
     }
     

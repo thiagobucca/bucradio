@@ -11,7 +11,7 @@
         <!--BucRadio-->
         <scene sceneID="7ik-k3-I0U">
             <objects>
-                <viewController id="enP-TM-Wa7" customClass="StationsViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="enP-TM-Wa7" customClass="StationsViewController" customModule="Bucradio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OvF-E7-hdu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="648"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StationCell" rowHeight="90" id="hMr-La-1Ga" customClass="StationTableViewCell" customModule="SwiftRadio" customModuleProvider="target">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="StationCell" rowHeight="90" id="hMr-La-1Ga" customClass="StationTableViewCell" customModule="Bucradio" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hMr-La-1Ga" id="NhW-Qy-GCO">
@@ -145,7 +145,7 @@
         <!--Menu View Controller-->
         <scene sceneID="4lL-TA-52h">
             <objects>
-                <viewController id="61j-j7-6ve" userLabel="Menu View Controller" customClass="PopUpMenuViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="61j-j7-6ve" userLabel="Menu View Controller" customClass="PopUpMenuViewController" customModule="Bucradio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OfZ-BE-wMy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -171,7 +171,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7mN-C5-TQp">
                                         <rect key="frame" x="27" y="27.333333333333314" width="196.33333333333334" height="164.66666666666666"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift-radio-black" translatesAutoresizingMaskIntoConstraints="NO" id="6p5-La-eLs" customClass="SpringImageView" customModule="SwiftRadio" customModuleProvider="target">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="swift-radio-black" translatesAutoresizingMaskIntoConstraints="NO" id="6p5-La-eLs" customClass="SpringImageView" customModule="Bucradio" customModuleProvider="target">
                                                 <rect key="frame" x="8" y="0.0" width="180" height="70"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="boolean" keyPath="autostart" value="YES"/>
@@ -184,7 +184,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wSU-lN-ktR">
                                                 <rect key="frame" x="12" y="80" width="172" height="32"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be5-hL-qtx" customClass="SpringButton" customModule="SwiftRadio" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Be5-hL-qtx" customClass="SpringButton" customModule="Bucradio" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="86" height="32"/>
                                                         <color key="backgroundColor" red="0.24706900119781494" green="0.56329798698425293" blue="0.81052231788635254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -210,7 +210,7 @@
                                                             <segue destination="XU1-sh-p0s" kind="presentation" id="2md-Am-VN1"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDa-S4-n0n" customClass="SpringButton" customModule="SwiftRadio" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDa-S4-n0n" customClass="SpringButton" customModule="Bucradio" customModuleProvider="target">
                                                         <rect key="frame" x="86" y="0.0" width="86" height="32"/>
                                                         <color key="backgroundColor" red="0.20579981803894043" green="0.49201503396034241" blue="0.70883911848068237" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
@@ -286,7 +286,7 @@
         <!--Now Playing View-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" userLabel="Now Playing View" customClass="NowPlayingViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" userLabel="Now Playing View" customClass="NowPlayingViewController" customModule="Bucradio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -294,7 +294,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="uXf-Wr-UiK" userLabel="Background Image View">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="obn-8m-awZ" userLabel="AlbumArt" customClass="SpringImageView" customModule="SwiftRadio" customModuleProvider="target">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="obn-8m-awZ" userLabel="AlbumArt" customClass="SpringImageView" customModule="Bucradio" customModuleProvider="target">
                                 <rect key="frame" x="70" y="81" width="274" height="274"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="obn-8m-awZ" secondAttribute="height" multiplier="1:1" id="0o9-ZN-zY3"/>
@@ -402,7 +402,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8xJ-4F-WCE" userLabel="Labels Stack View">
                                 <rect key="frame" x="12" y="514" width="390" height="65.666666666666629"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KC8-ZG-rx5" userLabel="Song Label" customClass="SpringLabel" customModule="SwiftRadio" customModuleProvider="target">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Song Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KC8-ZG-rx5" userLabel="Song Label" customClass="SpringLabel" customModule="Bucradio" customModuleProvider="target">
                                         <rect key="frame" x="124.66666666666667" y="0.0" width="140.66666666666663" height="33.666666666666664"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -512,7 +512,7 @@
         <!--Info View Controller-->
         <scene sceneID="abW-KU-RWK">
             <objects>
-                <viewController id="bg5-7y-kdG" userLabel="Info View Controller" customClass="InfoDetailViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bg5-7y-kdG" userLabel="Info View Controller" customClass="InfoDetailViewController" customModule="Bucradio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s9T-KA-lNI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -609,7 +609,7 @@
         <!--About View Controller-->
         <scene sceneID="kq6-OO-kxI">
             <objects>
-                <viewController id="XU1-sh-p0s" customClass="AboutViewController" customModule="SwiftRadio" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XU1-sh-p0s" customClass="AboutViewController" customModule="Bucradio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gkA-NG-Bu8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="716"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

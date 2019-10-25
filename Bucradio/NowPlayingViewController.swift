@@ -236,7 +236,7 @@ class NowPlayingViewController: UIViewController {
         
         switch state {
         case .loading:
-            message = "Carregando Rádios ..."
+            message = "Carregando"
         case .urlNotSet:
             message = "Station URL not valide"
         case .readyToPlay, .loadingFinished:
